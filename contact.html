@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flat Website | Contact</title>
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+    <section class="sec1">
+        <header>
+            <nav>
+                <div class="nav-brand"><a href="">Demo</a></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Blog.html" target="_blank">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html#policy">Policy</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <div class="subcontainer">
+                    <h3>Contact US</h3>
+                    <input type="text" class="name" placeholder="Name">
+                    <input type="text" class="email" placeholder="Email">
+                    <textarea class="message" id="" cols="30" rows="10" placeholder="Message goes here..."></textarea>
+                    <a href="#" class="btn">Send</a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <div id="footer"></div>
+<script>
+    var f = document.getElementById('footer');
+    var d = new Date().getFullYear();
+    f.innerHTML = "Copyright&copy; "+ d;
+</script>
+</body>
+</html>
